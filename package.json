@@ -1,6 +1,6 @@
 {
   "name": "journey-into-react",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple address book application.",
   "main": "index.js",
   "scripts": {
