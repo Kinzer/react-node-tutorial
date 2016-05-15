@@ -1,6 +1,8 @@
 # Journey into React
 The project files for the Journey into React tutorial that I'm writing on my website, davidmeents.com. It is still in development and will be released shortly.
 
+##[Get started with part one of this tutorial](http://davidmeents.com/journey-into-react-part-1-getting-started-with-react-on-windows/)
+
 ### Getting Started with React on Windows
 After recently taking the plunge into React myself, I decided I would write a series of posts on my experience. I found that while there are countless well written articles on the subject, tutorials to follow, and the endless knowledge of professionals on Stack Overflow, getting a working knowledge of React was difficult and the process was convoluted. It's my hope that that this series of articles and their accompanying videos will make the learning curve a bit easier, and get you creating much faster.
 
