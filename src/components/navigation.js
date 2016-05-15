@@ -6,9 +6,7 @@ import React, { Component } from "react";
 import { Link } from 'react-router';
 
 //=================
-// This component will eventually act like our login Form
-// but for now it's an alternate route we can test out
-// to make sure our router is functioning.
+// This will be a navigation bar
 //=================
 export default class Navigation extends Component {
   render() {
