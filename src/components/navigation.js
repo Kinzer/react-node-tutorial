@@ -6,15 +6,16 @@ import React, { Component } from "react";
 import { Link } from 'react-router';
 
 //=================
-// This will be a navigation bar
+// This is our navigation bar!
 //=================
 export default class Navigation extends Component {
   render() {
     return (
-      <div>
-        <ul>
-          <li><Link to="dashboard">Dashboard</Link></li>
-          <li><Link to="login">Login</Link></li>
+      <div className="frame bit-1 navigation_container">
+        <h3 className="bit-40">Journey into React</h3>
+        <ul className="bit-60 nav_menu">
+          <li key={100}><Link to="dashboard">Dashboard</Link></li>
+          <li key={101}><Link to="login">Login</Link></li>
         </ul>
       </div>
     );
