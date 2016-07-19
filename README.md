@@ -3,7 +3,14 @@ The project files for the Journey into React tutorial that I'm writing on my web
 
 ##[Get started with this tutorial here.](http://bit.ly/1TdPGRC)
 
-### Part Three: Creating your first React App
+### Part Four: Styling your App with Scss and Webpack
+I'm back! There was a bit of some down time there while I relocated my business (and myself!) to Minnessota, but after much ado - part 4 is here! If you missed the last few segments you can always catch up here.
+
+This time we are going to be working on styling our application with some scss by implementing a whole host of new loaders into our webpack.config.js file that will allow us to preprocess that scss for some slick customization. We'll be working with a grid system to streamline our web design, and then we'll put it all together to get our navigation bar looking pretty - all the while setting us up for easy improvements down the road. I'm pretty excited to get started on this one with you, so let's go!
+
+####[Read Journey into React Part 4](http://davidmeents.com/journey-into-react-part-4-styling-with-scss-and-webpack/)
+
+### Part Three: Navigating Between Webpages with React Router
 Hello and welcome back for part 3 of our journey into React. By now, you've set up your windows based work environment, and have created your first hello world app. If you've missed these, I'd highly recommend going back and reviewing them: part 1 is here, and part 2 is here.
 
 Today we are going to be expanding on this hello world app to start to fit the needs of the end application we'll be building. In review, we are working on an address book application that is going to store our contacts in a Mongo database. Our application will support multiple accounts, will authenticate securely, and will provide us with the ability to add, erase, call, or email our contacts all from within the browser. So going forward we are going to start pushing our application in that direction.
