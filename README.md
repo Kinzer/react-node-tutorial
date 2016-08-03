@@ -3,7 +3,7 @@ The project files for the Journey into React tutorial that I'm writing on [my we
 
 ##[Get started with this tutorial here.](http://bit.ly/1TdPGRC)
 
-### Part Five: Creating a Hello World API with Express
+### Part Five: Creating a RESTful API with Express
 We're going to be changing gears a bit here with Part 5 of our React.js tutorial and focus now on the back-end of our application. This section will center on creating an express server that uses cors and body-parser to send JSON responses to our clients. It'll do this when they send a "get" request to our hello world API. We'll also create our first controller and first API route to handle these requests!
 
 Part 5 is a little unique in that it does not rely on the previous 4 tutorials, and our server stands completely independent of what we've [previously worked on](http://davidmeents.com/journey-into-react-part-4-styling-with-scss-and-webpack/). However, the API that we'll be starting today will be the one that'll connect with our client application in the future parts of this series. This API will handle our server side authentication and database communication in the future.
