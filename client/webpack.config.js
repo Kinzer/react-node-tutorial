@@ -13,6 +13,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
   context: __dirname,
   entry: "./src/index.js",
+  debug: true,
+  devtool: "#eval-source-map",
   module: {
     loaders: [
       {

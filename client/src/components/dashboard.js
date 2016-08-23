@@ -1,19 +1,44 @@
-//=================
-// Import the dependencies that this component will need
-// to function properly
-//=================
 import React, { Component } from "react";
+import { connect } from 'react-redux';
+import { testAction } from '../actions/index.js';
 
-//=================
-// This is the component we'll be importing as the index route of our
-// router.
-//=================
-export default class Dashboard extends Component {
+/**
+ * export the dashboard page
+ */
+class Dashboard extends Component {
+
+  /**
+   * call the test action that we created
+   */
+  handleClickHello() {
+    this.props.testAction();
+  }
+
+  /**
+   * render component to the screen
+   * @returns { ReactElement }
+   */
   render() {
     return (
       <div>
-        This is the dashboard
+        <h4>This is the dashboard</h4>
+        <a onClick={this.handleClickHello.bind(this)}>Knock Knock</a>
+        <h3>{this.props.auth.message}</h3>
       </div>
     );
   }
 }
+
+/**
+ * allows us to call our application state from props
+ */
+function mapStateToProps(state) {
+  return {
+    auth: state.auth
+  };
+}
+
+/**
+ * exports our component and gives it access to the redux state
+ */
+export default connect(mapStateToProps, { testAction })(Dashboard);

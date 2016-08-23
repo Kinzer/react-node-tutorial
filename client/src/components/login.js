@@ -1,15 +1,14 @@
-//=================
-// Import the dependencies that this component will need
-// to function properly
-//=================
 import React, { Component } from "react";
 
-//=================
-// This component will eventually act like our login Form
-// but for now it's an alternate route we can test out
-// to make sure our router is functioning.
-//=================
+/**
+ * Export the login page as a react component
+ */
 export default class Login extends Component {
+
+  /**
+   * Render method returns the login page
+   * @returns { ReactElement }
+   */
   render() {
     return (
       <div>
